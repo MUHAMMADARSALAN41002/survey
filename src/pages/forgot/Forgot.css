@@ -1,0 +1,73 @@
+.forgot {
+    background-image: url('../../images/bk-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading-forgot {
+    text-align: center;
+    font-size: 30px;
+}
+
+#survey-forgot {
+    padding: 30px 0px 0px 0px;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.forgot-form {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px 10px 30px;
+}
+
+#heading-forgot {
+    padding: 10px 0px 20px 0px; 
+    font-size: 40px;
+}
+
+.paragraph-forgot {
+    text-align: center;
+    font-size: 16px;
+}
+
+.email-input {
+    width: 500px;
+    justify-self: center;
+    height: 45px;
+}
+
+@media only screen and (max-width: 510px) {
+    .email-input {
+        width: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 410px) {
+    .email-input {
+        width: 310px;
+    }
+  }
+
+  @media only screen and (max-width: 310px) {   
+    #survey-forgot {
+        font-size: 40px;
+    }
+    .email-input {
+        width: 250px;
+    }
+  }
+
+  @media only screen and (max-width: 249px) {
+    #survey-forgot {
+        font-size: 30px;
+    }
+    .email-input {
+        width: 200px;
+    }
+  }

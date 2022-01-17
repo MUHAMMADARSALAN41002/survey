@@ -1,0 +1,65 @@
+.dynamic-delete-button {
+  position: relative;
+  top: 4px;
+  margin: 0 8px;
+  color: #999;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.modal-comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.createsurvey {
+  float: right;
+  margin-right: 10px;
+}
+.surveybutton {
+  border: 2px solid black;
+  width: 190px;
+  padding: 15px;
+  margin-top: 50px;
+}
+.ownsurveybutton {
+  margin-left: 16px;
+}
+.main_hometable { 
+  padding: 50px 50px 150px 40px;
+}
+.resulttable {
+  margin: 5px 5px 5px 80px;
+}
+
+@media only screen and (max-width: 700px) {
+  .resulttable {
+    margin: 5px 5px 5px 40px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .main_hometable { 
+      padding: 50px 0px 150px 10px;
+  }
+  .resulttable {
+    margin: 5px 5px 5px 20px;
+  }
+}
+
+
+@media only screen and (max-width: 520px) {
+  .surveybutton {
+    margin-top: 70px;
+  }
+  .resulttable {
+    margin: 5px 5px 5px 5px;
+  }
+}
